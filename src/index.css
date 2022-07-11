@@ -1,13 +1,73 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
+  font-family: 'DM Sans';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: cornflowerblue;
+  margin: 0;
+}
+
+h1 {
+  background: cornflowerblue;
+  padding: 18px;
+  color: white;
+}
+
+.App {
+  padding: 30px;
+  width: 80%;
+  background: white;
+  margin: 50px auto;
+  box-shadow: 1px 2px 5px white;
+}
+
+input {
+  width: 80%;
+  border: 0px;
+  padding: 6px 10px;
+  background: gainsboro;
+}
+
+button {
+  width: 20%;
+  border: 0px;
+  padding: 6px 0;
+  margin: 0;
+  outline: 0;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  background: springgreen;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 15px 0;
+}
+
+li span {
+  display: inline-block;
+  width: 60%;
+  color: black;
+}
+
+li > button:first-of-type {
+  background: orange;
+  color: white;
+  margin-right: 1%;
+  width: 19%;
+}
+
+li > button:last-of-type {
+  background: crimson;
+  color: white;
+}
+
+ul > form {
+  margin: 15px 0;
 }
